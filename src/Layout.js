@@ -20,9 +20,9 @@ export const layout = {
 
     resetButton: {
         backgroundColor: "grey",
-        borderRadius: 10,
-        height: 30,
-        width: 50,
+        borderRadius: 5,
+        height: 40,
+        width: 60,
         color: "white",
         borderColor: "black",
         borderWidth: 1,
@@ -36,9 +36,9 @@ export const layout = {
 
     configButtons: {
         backgroundColor: "grey",
-        borderRadius: 10,
-        height: 30,
-        width: 60,
+        borderRadius: 5,
+        height: 40,
+        width: 70,
         marginLeft: 5,
         marginRight: 5,
         color: "white",
@@ -49,9 +49,9 @@ export const layout = {
 
     configButtonsSelected: {
         backgroundColor: "grey",
-        borderRadius: 10,
-        height: 30,
-        width: 60,
+        borderRadius: 5,
+        height: 40,
+        width: 70,
         marginLeft: 5,
         marginRight: 5,
         color: "white",
@@ -71,7 +71,7 @@ export const layout = {
     rotateButtons: {
         order:1,
         backgroundColor: "grey",
-        borderRadius: 10,
+        borderRadius: 5,
         height: 50,
         width: 50,
         padding: 5,

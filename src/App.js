@@ -8,6 +8,7 @@ import { rotateGroup, selectGroup } from './controller/Controller';
 import {buttons} from './boundary/Boundary.js';
 import rotateLeft from './assets/rotate.left.svg';
 import rotateRight from './assets/rotate.right.svg';
+import logo from './assets/logo.png';
 
 var actualBoard = JSON.parse(JSON.stringify(configs));
  
@@ -39,6 +40,7 @@ function App() {
     <main style={layout.Appmain} ref={appRef}>
       <div style={layout.controlArea}>
         <button onClick= {() => {model.reset(model.config); forceRedraw(redraw+1);}} style={layout.resetButton}>Reset</button>
+        <img style={layout.logo} src={logo} alt="logo"/>
         <div style={layout.configButtonArea}>
           <button onClick= {() => {model.setConfig(model.configs[0]); forceRedraw(redraw+1);}} style={configStyle(model.configs[0])}>Config 1</button>
           <button onClick= {() => {model.setConfig(model.configs[1]); forceRedraw(redraw+1);}} style={configStyle(model.configs[1])}>Config 2</button>
@@ -66,7 +68,11 @@ function App() {
           <button data-testid="clockwise" onClick={() => {rotateGroup(model, model.board, true); forceRedraw(redraw+1);}} style={layout.rotateButtons}>
             <img style={layout.rotateSVG} src={rotateRight} alt="Rotate Clockwise"/>
           </button>
-        </div>
+      </div>
+      <div>
+        <a style={layout.brand} href="https://johndeleo.dev">JohnDeLeo.dev</a>
+      </div>
+      
     </main>
 
   );

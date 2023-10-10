@@ -124,6 +124,24 @@ export const layout = {
         fontSize: 60,
         height: 75,
     },
+
+    brand: {
+        display: "flex",
+        margin: "auto",
+        justifyContent: "center",
+        textAlign: "center",
+        color: "black", 
+        fontSize: 10,
+        fontWeight: "bold",
+    },
+
+    logo: {
+        display: "flex",
+        margin: "auto",
+        justifyContent: "center",
+        textAlign: "center",
+        width: "300px",
+    },
     
 
 }

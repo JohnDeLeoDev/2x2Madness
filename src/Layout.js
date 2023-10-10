@@ -27,6 +27,9 @@ export const layout = {
         borderColor: "black",
         borderWidth: 1,
         borderStyle: "solid",
+        fontWeight: "bold",
+        fontSize: 14,
+
     },
 
     configButtonArea: {
@@ -42,9 +45,11 @@ export const layout = {
         marginLeft: 5,
         marginRight: 5,
         color: "white",
+        fontWeight: "bold",
         borderColor: "black",
         borderWidth: 1,
         borderStyle: "solid", 
+        fontSize: 14,
     },
 
     configButtonsSelected: {
@@ -55,9 +60,11 @@ export const layout = {
         marginLeft: 5,
         marginRight: 5,
         color: "white",
+        fontWeight: "bold",
         borderColor: "red",
         borderWidth: 2,
         borderStyle: "solid", 
+        fontSize: 14,
     },
 
     rotateButtonsArea: {
@@ -72,11 +79,11 @@ export const layout = {
         order:1,
         backgroundColor: "grey",
         borderRadius: 5,
-        height: 50,
-        width: 50,
+        height: 60,
+        width: 60,
         padding: 5,
-        marginLeft: 10,
-        marginRight: 10,
+        marginLeft: 30,
+        marginRight: 30,
         color: "white",
         borderColor: "black",
         borderWidth: 1,
@@ -84,8 +91,8 @@ export const layout = {
     },
 
     rotateSVG: {
-        height: 35,
-        width: 35,
+        height: 50,
+        width: 50,
     },
 
     text: {

@@ -121,7 +121,7 @@ export const layout = {
         textAlign: "center",
         color: "green", 
         fontWeight: "bold",
-        fontSize: 40,
+        fontSize: 30,
         height: 40,
     },
 

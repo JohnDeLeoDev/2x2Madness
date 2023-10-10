@@ -107,8 +107,8 @@ export const layout = {
     canvasArea: {
         display:"flex",
         margin: "auto",
-        maxHeight: "60%",
-        maxWidth: "60%",
+        maxHeight: "80%",
+        maxWidth: "80%",
         minWidth: "200px",
         justifyContent: "center",
     },    
@@ -140,7 +140,6 @@ export const layout = {
         textAlign: "center",
         color: "black", 
         fontSize: 10,
-        fontWeight: "bold",
     },
 
     logo: {

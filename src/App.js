@@ -40,7 +40,9 @@ function App() {
     <main style={layout.Appmain} ref={appRef}>
       <div style={layout.controlArea}>
         <button onClick= {() => {model.reset(model.config); forceRedraw(redraw+1);}} style={layout.resetButton}>Reset</button>
-        <img style={layout.logo} src={logo} alt="logo"/>
+        <a href='https://2x2madness.johndeleo.dev'>
+          <img style={layout.logo} src={logo} alt="logo"/>
+        </a>
         <div style={layout.configButtonArea}>
           <button onClick= {() => {model.setConfig(model.configs[0]); forceRedraw(redraw+1);}} style={configStyle(model.configs[0])}>Config 1</button>
           <button onClick= {() => {model.setConfig(model.configs[1]); forceRedraw(redraw+1);}} style={configStyle(model.configs[1])}>Config 2</button>

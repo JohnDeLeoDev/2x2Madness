@@ -3,26 +3,27 @@ export const layout = {
         backgroundColor: "white",
         height: "100vh",
         width: "100vw",
+        maxWidth: "100vw",
+        maxHeight: "100vh",
     },
 
     controlArea: {
         display: "flex",
-        flexWrap: "wrap",
         textAlign: "center",
+        textWeight: "bold", 
         justifyContent: "space-between",
         width: "90vw",
         margin: "auto",
-        paddingTop: 20,
         paddingBottom: 20,
     },
 
 
     resetButton: {
-        order: 0,
+        order: 1,
         backgroundColor: "grey",
         borderRadius: 10,
-        height: 40,
-        width: 60,
+        height: 30,
+        width: 50,
         color: "white",
         borderColor: "black",
         borderWidth: 1,
@@ -32,13 +33,14 @@ export const layout = {
     configButtonArea: {
         order: 2,
         height: 40,
+        textAlign: "center",
     },
 
     configButtons: {
         backgroundColor: "grey",
         borderRadius: 10,
-        height: 40,
-        width: 80,
+        height: 30,
+        width: 60,
         marginLeft: 5,
         marginRight: 5,
         color: "white",
@@ -50,8 +52,8 @@ export const layout = {
     configButtonsSelected: {
         backgroundColor: "grey",
         borderRadius: 10,
-        height: 40,
-        width: 80,
+        height: 30,
+        width: 60,
         marginLeft: 5,
         marginRight: 5,
         color: "white",
@@ -76,8 +78,8 @@ export const layout = {
     rotateButtons: {
         backgroundColor: "grey",
         borderRadius: 10,
-        height: 60,
-        width: 60,
+        height: 50,
+        width: 50,
         padding: 5,
         marginLeft: 10,
         marginRight: 10,
@@ -88,8 +90,8 @@ export const layout = {
     },
 
     rotateSVG: {
-        height: 40,
-        width: 40,
+        height: 35,
+        width: 35,
     },
 
     text: {
@@ -104,14 +106,18 @@ export const layout = {
 
     canvasArea: {
         display:"flex",
+        margin: "auto",
+        height: "auto",
+        maxHeight: "60%",
+        maxWidth: "60%",
     },    
     
     canvas : {
         padding: 25,
         margin: "auto",
-        width: "80%",
-        maxWidth: 500,
-        height: "100%",
+        maxHeight: "60%",
+        maxWidth: "60%",
+
     },
 
     victory: {
@@ -138,9 +144,10 @@ export const layout = {
     logo: {
         display: "flex",
         margin: "auto",
-        justifyContent: "center",
-        textAlign: "center",
-        width: "300px",
+        marginLeft: 40,
+        paddingTop: 20,
+        paddingBottom: 20,
+        width: "200px",
     },
     
 

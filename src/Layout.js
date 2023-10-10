@@ -137,10 +137,8 @@ export const layout = {
 
     logo: {
         display: "flex",
-        paddingLeft: 20,
-        paddingTop: 20,
-        paddingBottom: 20,
         width: "200px",
+        padding: 30,
     },
     
 

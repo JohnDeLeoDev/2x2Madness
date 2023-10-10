@@ -23,7 +23,7 @@ export function selectGroup(board, canvas, event, buttons) {
     }
 }
 export function rotateGroup(model, board, direction) {
-        if (board.selected != null && board.selected.matches() != true) {
+        if (board.selected !== null && board.selected.matches() !== true) {
             board.selected.rotate(direction);
             model.numMoves++;
         }

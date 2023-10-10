@@ -29,7 +29,7 @@ export const layout = {
         borderStyle: "solid",
         fontWeight: "bold",
         fontSize: 14,
-
+        padding: 5,
     },
 
     configButtonArea: {
@@ -42,14 +42,15 @@ export const layout = {
         borderRadius: 5,
         height: 40,
         width: 70,
-        marginLeft: 5,
-        marginRight: 5,
+        marginLeft: 2.5,
+        marginRight: 2.5,
         color: "white",
         fontWeight: "bold",
         borderColor: "black",
         borderWidth: 1,
         borderStyle: "solid", 
         fontSize: 14,
+        padding: 5,
     },
 
     configButtonsSelected: {
@@ -57,14 +58,15 @@ export const layout = {
         borderRadius: 5,
         height: 40,
         width: 70,
-        marginLeft: 5,
-        marginRight: 5,
+        marginLeft: 2.5,
+        marginRight: 2.5,
         color: "white",
         fontWeight: "bold",
         borderColor: "red",
         borderWidth: 2,
         borderStyle: "solid", 
         fontSize: 14,
+        padding: 5,
     },
 
     rotateButtonsArea: {

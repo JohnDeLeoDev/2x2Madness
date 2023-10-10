@@ -96,7 +96,7 @@ export class Board {
    
     checkVictory() {
         for (let i = 0; i < this.groups.length; i++) {
-            if (this.groups[i].matches() != true) {
+            if (this.groups[i].matches() !== true) {
                 return false;
             }
         }

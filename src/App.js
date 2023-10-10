@@ -61,10 +61,10 @@ function App() {
       </div>
       <div style={layout.rotateButtonsArea}>
           <button data-testid="counterclockwise" onClick={() => {rotateGroup(model, model.board, false); forceRedraw(redraw+1);}} style={layout.rotateButtons}>
-            <img style={layout.rotateSVG} src={rotateLeft}/>
+            <img style={layout.rotateSVG} src={rotateLeft} alt="Rotate Counterclockwise"/>
           </button>
           <button data-testid="clockwise" onClick={() => {rotateGroup(model, model.board, true); forceRedraw(redraw+1);}} style={layout.rotateButtons}>
-            <img style={layout.rotateSVG} src={rotateRight}/>
+            <img style={layout.rotateSVG} src={rotateRight} alt="Rotate Clockwise"/>
           </button>
         </div>
     </main>

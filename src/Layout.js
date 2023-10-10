@@ -107,17 +107,19 @@ export const layout = {
     canvasArea: {
         display:"flex",
         margin: "auto",
-        height: "auto",
         maxHeight: "60%",
         maxWidth: "60%",
+        minWidth: "200px",
+        justifyContent: "center",
     },    
     
     canvas : {
         padding: 25,
         margin: "auto",
-        maxHeight: "60%",
-        maxWidth: "60%",
-
+        width: "auto",
+        height: "auto",
+        maxWidth: "90%",
+        maxHeight: "90%",
     },
 
     victory: {
@@ -127,8 +129,8 @@ export const layout = {
         textAlign: "center",
         color: "green", 
         fontWeight: "bold",
-        fontSize: 60,
-        height: 75,
+        fontSize: 50,
+        height: 50,
     },
 
     brand: {

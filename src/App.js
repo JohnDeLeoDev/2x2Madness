@@ -62,7 +62,6 @@ function App() {
           style={layout.canvas}
           onClick={handleClick}
         /> 
-      </div>
       <div style={layout.rotateButtonsArea}>
           <button data-testid="counterclockwise" onClick={() => {rotateGroup(model, model.board, false); forceRedraw(redraw+1);}} style={layout.rotateButtons}>
             <img style={layout.rotateSVG} src={rotateLeft} alt="Rotate Counterclockwise"/>
@@ -71,6 +70,8 @@ function App() {
             <img style={layout.rotateSVG} src={rotateRight} alt="Rotate Clockwise"/>
           </button>
       </div>
+      </div>
+      
       <div>
         <a style={layout.brand} href="https://johndeleo.dev">JohnDeLeo.dev</a>
       </div>

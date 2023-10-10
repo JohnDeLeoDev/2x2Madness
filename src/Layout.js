@@ -1,10 +1,11 @@
 export const layout = {
     Appmain : {
         backgroundColor: "white",
-        height: "100vh",
-        width: "100vw",
-        maxWidth: "100vw",
-        maxHeight: "100vh",
+        height: "90vh",
+        width: "90vw",
+        maxWidth: "90vw",
+        maxHeight: "90vh",
+        margin: "auto",
     },
 
     controlArea: {
@@ -12,14 +13,12 @@ export const layout = {
         textAlign: "center",
         textWeight: "bold", 
         justifyContent: "space-between",
-        width: "90vw",
+        width: "80vw",
         margin: "auto",
-        paddingBottom: 20,
     },
 
 
     resetButton: {
-        order: 1,
         backgroundColor: "grey",
         borderRadius: 10,
         height: 30,
@@ -31,7 +30,6 @@ export const layout = {
     },
 
     configButtonArea: {
-        order: 2,
         height: 40,
         textAlign: "center",
     },
@@ -62,20 +60,16 @@ export const layout = {
         borderStyle: "solid", 
     },
 
-
-
     rotateButtonsArea: {
-        display: "flex",
-        flexWrap: "wrap",
         textAlign: "center",
         justifyContent: "center",
-        width: "90vw",
-        height: 100,
         margin: "auto",
         paddingTop: 10,
+        paddingBottom: 10,
     },
 
     rotateButtons: {
+        order:1,
         backgroundColor: "grey",
         borderRadius: 10,
         height: 50,
@@ -105,18 +99,19 @@ export const layout = {
     },
 
     canvasArea: {
-        display:"flex",
-        margin: "auto",
         maxHeight: "60vh",
-        maxWidth: "80vw",
-        justifyContent: "center",
+        maxWidth: "100%",
+        width: "100%",
+        margin: "auto",
     },    
     
-    canvas : {
+    canvas: {
+        display: "flex",
         padding: 25,
         margin: "auto",
         maxWidth: "80vw",
         maxHeight: "50vh",
+        justifyContent: "center",
     },
 
     victory: {
@@ -126,16 +121,15 @@ export const layout = {
         textAlign: "center",
         color: "green", 
         fontWeight: "bold",
-        fontSize: 50,
-        height: 50,
+        fontSize: 40,
+        height: 40,
     },
 
     brand: {
         position: "absolute",
-        bottom: 20,
-        width: "100%", 
+        bottom: 10,
+        right:10,
         margin: "auto",
-        justifyContent: "center",
         textAlign: "center",
         color: "black", 
         fontSize: 10,
@@ -143,8 +137,7 @@ export const layout = {
 
     logo: {
         display: "flex",
-        margin: "auto",
-        marginLeft: 40,
+        paddingLeft: 20,
         paddingTop: 20,
         paddingBottom: 20,
         width: "200px",

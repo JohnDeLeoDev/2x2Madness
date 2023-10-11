@@ -132,8 +132,8 @@ export const layout = {
         fontWeight: "bold",
         fontSize: 30,
         height: 40,
-        paddingTop: 20,
-        paddingBottom: 20,
+        paddingTop: 10,
+        paddingBottom: 10,
     },
 
     brand: {
